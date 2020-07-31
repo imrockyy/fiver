@@ -1,0 +1,133 @@
+:root {
+    --green: #00b30c;
+    --gray1: #353537;
+    --gray2: #eaeaeb;
+    --gray3: #777777;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 !important;
+}
+h2{
+    font-size: 3rem !important;
+}
+header{
+    background-image: url(../img/hero.jpg);
+    min-height: 30rem;
+    background-size: cover;
+    
+}
+a.btn-outline-light:hover{
+    color: black !important;
+}
+.header .nav-link{
+    color: white !important;
+}
+.caption{
+    min-height: 25rem;
+}
+.title{
+    font-size: 700;
+}
+
+.category{
+    padding-bottom: 60px;
+    overflow: hidden;
+    height: calc(auto+30px);
+}
+.category h3:before{
+    content: "";
+    display: block;
+    margin: 5px auto 20px auto;
+    height: 1px;
+    width: 60px;
+    background-color: #00b30c;
+    transition: all .3s ease-in-out;
+}
+.category:hover h3:before{
+    width: 180px;
+}
+.category p{
+    opacity: 0;
+    padding-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.category:hover p{
+   opacity: 1;
+   display: block;
+   padding-top: 10px;
+   color: #999; 
+}
+.first-steps .description {
+    height: 20rem;
+    background-size: cover;
+}
+.first-steps .description p {
+    font-size: .9rem;
+}
+.first-steps .description  span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.first-steps .logo {
+    background-image: url(../img/service_1.png);
+}
+.first-steps .social-media {
+    background-image: url(../img/service_2.png);
+}
+.first-steps .audio {
+    background-image: url(../img/service_3.png);
+}
+.first-steps .translate {
+    background-image: url(../img/service_4.png);
+}
+.first-steps .wordpress {
+    background-image: url(../img/service_5.png);
+}
+.benefits .row{
+    height: 20rem;
+}
+.item h3 {
+    font-weight: 300;
+}
+.item h3 span {
+    font-weight: 700;
+}
+
+.carousel{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #77777780;
+}
+
+.carousel-indicators li{
+    position: relative;
+    flex: 0 0 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    border-radius: 50%;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+}
+.card-body h3{
+    color: #777777;
+    font-size:1.2rem;
+}
+.footermain h3{
+    color: #777777;
+    font-size: 2 rem;
+    
+}
+.footermain .nav-link{
+   color: #777777 !important;
+   padding: .5rem 0;
+   font-size: 1 rem;
+}
+.footer .container-fluid  {
+    display: flex;
+    flex-wrap: wrap;
+}
